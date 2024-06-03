@@ -10,7 +10,7 @@
 .snapshots/
 #Testing Output folder
 .output/
-#Extension App-file
+#extension App-file
 *.app
 #Rapid Application Development File
 rad.json
@@ -20,3 +20,4 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+text_ignore.txt
