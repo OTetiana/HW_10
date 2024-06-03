@@ -1,0 +1,36 @@
+    1  git config --user.name "God"
+    2  git config --global user.name "OTetiana"
+    3  git config --global user.email "tetiana.kovalevych@gmail.com"
+    4  git clone https://github.com/OTetiana/HW_10.git
+    5  cd Tetiana Opryshko/
+    6  cd desktop/Tetiana Opryshko/
+    7  cd HW_10/
+    8  touch text_ignore.txt
+    9  vim .gitignore
+   10  git status
+   11  git add
+   12  git add .
+   13  git add .
+   14  git status
+   15  git commit -m "modified gitignore"
+   16  touch main_test.txt
+   17  git add .
+   18  git commit -m "added main_test file"
+   19  git branch
+   20  git checkout -b new_branch
+   21  touch develop_test.txt
+   22  git add .
+   23  git commit -m "criated a branch"
+   24  vim develop_test.txt
+   25  vim develop_test.txt
+   26  vim develop_test.txt
+   27  git status
+   28  git add .
+   29  git commit
+   30  git status
+   31  checkout main
+   32  git checkout main
+   33  git merge new_branch
+   34  git log
+   35  git log
+   36  history > command_list.csv
